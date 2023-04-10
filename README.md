@@ -1,6 +1,6 @@
 # Phonebook
+# Using Doubly Linked List
 # THIS SHOWS THE PHONEBOOK MANAGEMENT SYSTEM WITH DOUBLY LINKED LIST SO THAT TRAVERSING CAN BE EASY.....
-# Phonebook-management-using-doubly-linked-list
 # In eclipse
 
 #Phonebook management have three main operations:<br />
