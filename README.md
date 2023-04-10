@@ -10,35 +10,25 @@ These three operation can be performed efficiently(among above data structures) 
 Time complexities in O
 
 1.Searching O(n)
-
 2.Deletion O(n)
-
 3.Sorting O(n*Log n)
 
 OPERATIONS IMPLEMENTED.............
 
 1)DELETE SAME NUMBER
-
 2)DELETE SAME NAME
-
 3)SEARCH
-
 4)DELETE CONATCT
-
 5)DISPLAY CONTACT-In sorted(bubble sort) display
-
 6)UPDATE DETAILS-
-
   A)NAME
-  
   B)NUMBER
-  
   C)G-MAIL
-  
 7)INSERT CONTACT
 
 OUTPUT:-In eclipse C++
-# /***************                                PHONE BOOK                          ********************
+
+# /***************                                PHONE BOOK                          ********************/
 
 WHAT IS YOUR NAME?
 Jay
@@ -49,13 +39,13 @@ Jay
 
 LET'S CREATE OUR PHONEBOOK JAY 
 
-ENTER NAME :vijay 
+ENTER NAME :ram 
 ENTER NUMBER :1234567890 
-ENTER G-MAIL :priti@gmail.com 
+ENTER G-MAIL :ram@gmail.com 
 DO YOU WANT TO CONTINUE?????????y
-ENTER NAME :rahul 
+ENTER NAME :ravi 
 ENTER NUMBER :1234567890 
-ENTER G-MAIL :rahul@gmail.com 
+ENTER G-MAIL :ravi@gmail.com 
 DO YOU WANT TO CONTINUE?????????n
 
 DISPLAY YOUR PHONE BOOK
@@ -66,12 +56,12 @@ DELETE SAME NAME IN PHONEBOOK
 DELETE SAME NUMBERS IN PHONEBOOK
 SEARCH 1
 
-NAME :: rahul 
+NAME :: ravi 
 NUMBER:: +91-1234567890 
-G-MAIL:: priti@gmail.com
-NAME :: vijay
+G-MAIL:: ram@gmail.com
+NAME :: ram
 NUMBER:: +91-1234567890
-G-MAIL:: rahul@gmail.com
+G-MAIL:: ravi@gmail.com
 
 DO YOU WANT TO CONTINUE OPERATIONS?????????y
 
@@ -86,9 +76,9 @@ ENTER NAME :akshay
 ENTER NUMBER :9819140108
 ENTER G-MAIL :akshay@gmail.com 
 DO YOU WANT TO CONTINUE?????????y 
-ENTER NAME :Vijay 
+ENTER NAME :ram 
 ENTER NUMBER :1234567890 
-ENTER G-MAIL :vijay@gmail.com 
+ENTER G-MAIL :ram@gmail.com 
 DO YOU WANT TO CONTINUE?????????n
 
 DO YOU WANT TO CONTINUE OPERATIONS?????????y
@@ -101,21 +91,21 @@ DELETE SAME NAME IN PHONEBOOK
 DELETE SAME NUMBERS IN PHONEBOOK
 SEARCH 3
 1
-NAME :: Vijay 
+NAME :: ram 
 NUMBER:: +91-1234567890 
-G-MAIL:: priti@gmail.com
+G-MAIL:: ram@gmail.com
 
 NAME :: akshay 
 NUMBER:: +91-1234567890 
-G-MAIL:: rahul@gmail.com
+G-MAIL:: ravi@gmail.com
 
-NAME :: rahul 
+NAME :: ravi 
 NUMBER:: +91-9819140108
 G-MAIL:: akshay@gmail.com
 
-NAME :: vijay 
+NAME :: ram 
 NUMBER:: +91-1234567890
-G-MAIL:: vijay@gmail.com
+G-MAIL:: ram@gmail.com
 
 DO YOU WANT TO CONTINUE OPERATIONS?????????y
 
@@ -126,13 +116,13 @@ DELETE CONTACT
 DELETE SAME NAME IN PHONEBOOK
 DELETE SAME NUMBERS IN PHONEBOOK
 SEARCH 3
-ENTER THE NAME OF PERSON WHOSE DETAILS YOU WANT TO UPDATE... Vijay
+ENTER THE NAME OF PERSON WHOSE DETAILS YOU WANT TO UPDATE... ram
 
 WHAT DO YOU WANT TO UPDATE? 
 1.NAME 
 2.PHONE NUMBER 
 3.G-MAIL 
-1 ENTER NEW-NAME=Priti 
+1 ENTER NEW-NAME=ram 
 DO YOU WANT TO CONTINUE UPDATING?n
 
 DO YOU WANT TO CONTINUE OPERATIONS?????????y
@@ -144,21 +134,21 @@ DELETE CONTACT
 DELETE SAME NAME IN PHONEBOOK
 DELETE SAME NUMBERS IN PHONEBOOK
 SEARCH 1
-NAME :: Priti 
+NAME :: ram 
 NUMBER:: +91-1234567890 
-G-MAIL:: priti@gmail.com
+G-MAIL:: ram@gmail.com
 
 NAME :: akshay
 NUMBER:: +91-1234567890 
-G-MAIL:: rahul@gmail.com
+G-MAIL:: ravi@gmail.com
 
-NAME :: rahul 
+NAME :: ravi 
 NUMBER:: +91-9819140108 
 G-MAIL:: akshay@gmail.com
 
-NAME :: vijay 
+NAME :: ram 
 NUMBER:: +91-1234567890 
-G-MAIL:: vijay@gmail.com
+G-MAIL:: ram@gmail.com
 
 DO YOU WANT TO CONTINUE OPERATIONS?????????y
 
@@ -169,7 +159,7 @@ DELETE CONTACT
 DELETE SAME NAME IN PHONEBOOK
 DELETE SAME NUMBERS IN PHONEBOOK
 SEARCH 4
-ENTER THE NAME YOU WANT TO DELETE FROM PHONEBOOK Priti 
+ENTER THE NAME YOU WANT TO DELETE FROM PHONEBOOK ram 
 YOUR CONTACT IS SUCCESSFULLY DELETED
 
 DO YOU WANT TO CONTINUE OPERATIONS?????????y
@@ -184,15 +174,15 @@ SEARCH 1
 
 NAME :: akshay 
 NUMBER:: +91-1234567890 
-G-MAIL:: rahul@gmail.com
+G-MAIL:: ravi@gmail.com
 
-NAME :: rahul 
+NAME :: ravi 
 NUMBER:: +91-9819140108 
 G-MAIL:: akshay@gmail.com
 
-NAME :: vijay 
+NAME :: ram 
 NUMBER:: +91-1234567890
-G-MAIL:: vijay@gmail.com
+G-MAIL:: ram@gmail.com
 
 DO YOU WANT TO CONTINUE OPERATIONS?????????y
 
@@ -221,17 +211,17 @@ SEARCH 1
 
 NAME :: akshay 
 NUMBER:: +91-1234567890 
-G-MAIL:: rahul@gmail.com
+G-MAIL:: ravi@gmail.com
 
 NAME :: akshay 
 NUMBER:: +91-9819140108 
 G-MAIL:: akshay@gmail.com
 
-NAME :: rahul 
+NAME :: ravi 
 NUMBER:: +91-1234567890
-G-MAIL:: vijay@gmail.com
+G-MAIL:: ram@gmail.com
 
-NAME :: vijay 
+NAME :: ram 
 NUMBER:: +91-1234567980 
 G-MAIL:: akshay@gmail.com
 
@@ -247,13 +237,13 @@ SEARCH 5
 
 NAME :: akshay
 NUMBER:: +91-1234567890
-G-MAIL:: rahul@gmail.com
+G-MAIL:: ravi@gmail.com
 
-NAME :: rahul 
+NAME :: ravi 
 NUMBER:: +91-1234567890 
-G-MAIL:: vijay@gmail.com
+G-MAIL:: ram@gmail.com
 
-NAME :: vijay
+NAME :: ram
 NUMBER:: +91-1234567980
 G-MAIL:: akshay@gmail.com
 
@@ -268,13 +258,13 @@ DELETE SAME NUMBERS IN PHONEBOOK
 SEARCH 1
 NAME :: akshay
 NUMBER:: +91-1234567890 
-G-MAIL:: rahul@gmail.com
+G-MAIL:: ravi@gmail.com
 
-NAME :: rahul
+NAME :: ravi
 NUMBER:: +91-1234567890 
-G-MAIL:: vijay@gmail.com
+G-MAIL:: ram@gmail.com
 
-NAME :: vijay 
+NAME :: ram 
 NUMBER:: +91-1234567980 
 G-MAIL:: akshay@gmail.com
 
@@ -288,7 +278,7 @@ DELETE SAME NAME IN PHONEBOOK
 DELETE SAME NUMBERS IN PHONEBOOK
 SEARCH 3
 
-ENTER THE NAME OF PERSON WHOSE DETAILS YOU WANT TO UPDATE... rahul
+ENTER THE NAME OF PERSON WHOSE DETAILS YOU WANT TO UPDATE... ravi
 
 WHAT DO YOU WANT TO UPDATE? 
 1.NAME
@@ -310,13 +300,13 @@ SEARCH 1
 
 NAME :: akshay
 NUMBER:: +91-1234567890 
-G-MAIL:: rahul@gmail.com
+G-MAIL:: ravi@gmail.com
 
-NAME :: rahul 
+NAME :: ravi 
 NUMBER:: +91-1234567890 
-G-MAIL:: vijay@gmail.com
+G-MAIL:: ram@gmail.com
 
-NAME :: vijay 
+NAME :: ram 
 NUMBER:: +91-1234567980 
 G-MAIL:: akshay@gmail.com
 
@@ -332,7 +322,7 @@ SEARCH 6
 
 NAME :: akshay 
 NUMBER:: +91-1234567890
-G-MAIL:: rahul@gmail.com
+G-MAIL:: ravi@gmail.com
 
 DO YOU WANT TO CONTINUE OPERATIONS?????????y
 
@@ -350,7 +340,7 @@ SEARCH 7
 
 NAME :: akshay 
 NUMBER:: +91-1234567890 
-G-MAIL:: rahul@gmail.com
+G-MAIL:: ravi@gmail.com
 
 DO YOU WANT TO CONTINUE SEARCHING?????????n
 
